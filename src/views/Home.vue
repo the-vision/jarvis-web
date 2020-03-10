@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <!-- <h3 class=" text-center">Jarvis-Web Chat</h3> -->
+    <!-- <h3 class=" text-center">Jarvis-Web Chat</h3> --> 
     <div class="messaging">
       <div class="inbox_msg">
         <div class="inbox_people">
