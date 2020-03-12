@@ -7,11 +7,15 @@
     </span>
   </div>
 </template>
+
+
 <script>
 export default {
   name: "Navigation"
 };
 </script>
+
+
 <style scoped>
 .nav {
   height: 4em;
@@ -29,6 +33,8 @@ export default {
   float: right;
   text-decoration: none;
   font-size: 1.5em;
-  margin: 0.5em;
+  margin-right: 2em;
+  margin-top:1em;
 }
+
 </style>

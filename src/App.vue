@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <GithubCorner 
+      url='https://github.com/the-vision/jarvis-web' 
+      :size='70'  gitColor='#fff' cornerColor='#000' flipOnHover
+     />
     <Navigation />
     <LandingPage />
   </div>
@@ -8,12 +12,14 @@
 <script>
 import Navigation from "./components/Navigation.vue";
 import LandingPage from "./components/LandingPage.vue";
+import GithubCorner from 'vue-github-corners'
 
 export default {
   name: "App",
   components: {
     LandingPage,
-    Navigation
+    Navigation,
+    GithubCorner 
   }
 };
 </script>
