@@ -1,5 +1,6 @@
 
 <template>
+
     <section style="background: rgb(123,198,255);background: linear-gradient(0deg, rgba(123,198,255,1) 0%, rgba(107,175,229,1) 100%);height: 1066px;width: 1936px;">
         <div class="row" style="height: 208px; background: rgb(32,68,96); background: linear-gradient(0deg, rgba(32,68,96,1) 0%, rgba(45,97,136,1) 14%, rgba(64,136,191,1) 100%);">
             <div class="col justify-content-center align-items-center align-content-center align-self-center">
@@ -48,6 +49,25 @@
     export default {
         name: "LandingPage"
     };
+=======
+  <div class="main">
+    <About class="split"/>
+    <Chat  class="split"/>
+   </div>
+</template>
+
+<script>
+
+import About from "../components/About.vue";
+import Chat from "../components/Chat.vue";
+
+export default {
+  name: "LandingPage",
+  components: {
+    About,
+    Chat
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -70,4 +90,11 @@
         width: 70%;
         float: right;
     }
+=======
+.split {
+  height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+}
+
 </style>
