@@ -2,8 +2,9 @@
   <div class="nav">
     <h3 class="header">Jarvis</h3>
     <span>
-      <a href="#">About</a>
+      <a href="#">Projects</a>
       <a href="#">Chat</a>
+      <a href="#">About</a>
     </span>
   </div>
 </template>
