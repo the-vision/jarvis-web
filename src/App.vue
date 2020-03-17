@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import Navigation from "./components/Navigation.vue";
-import LandingPage from "./components/LandingPage.vue";
+    import Navigation from "./components/Navigation.vue";
+    import LandingPage from "./components/LandingPage.vue";
 
 export default {
   name: "App",
   components: {
     LandingPage,
-    Navigation
+      Navigation,
   }
 };
 </script>
