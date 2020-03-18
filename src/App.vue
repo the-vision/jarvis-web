@@ -1,13 +1,27 @@
 <template>
   <div id="app">
+    <GithubCorner 
+      url='https://github.com/the-vision/jarvis-web' 
+      :size='70'  gitColor='#fff' cornerColor='#000' flipOnHover
+     />
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
   </div>
+
 </template>
 
+<script>
+import GithubCorner from 'vue-github-corners'
+export default {
+  name: "App",
+  components: {
+    GithubCorner 
+  }
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
