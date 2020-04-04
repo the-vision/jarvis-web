@@ -8,17 +8,20 @@
             <router-link to="/about">About</router-link>
         </div> -->
         <router-view />
+        <Footer/>
     </div>
 
 </template>
 
 <script>
     import GithubCorner from 'vue-github-corners';
-    import Navigation from './components/Navigation'
+    import Footer from './components/Footer';
+    import Navigation from './components/Navigation';
     export default {
         name: "App",
         components: {
             GithubCorner,
+            Footer,
             Navigation
         }
     };
