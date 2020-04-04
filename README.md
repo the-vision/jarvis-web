@@ -22,3 +22,5 @@ npm run serve
 ```
 The development server with hot reloading can be found at localhost:8080
 
+Before contributing to this project do check [CONTRIBUTING.md](https://github.com/the-vision/jarvis-web/blob/master/CONTRIBUTING.md) file.
+
