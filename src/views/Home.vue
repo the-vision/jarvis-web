@@ -12,7 +12,11 @@
               <div class="stylish-input-group">
                 <input type="text" class="search-bar"  placeholder="Search" >
                 <span class="input-group-addon">
-                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                <button type="button"> 
+                  <svg class="search" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                    <path d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"/>
+                  </svg>
+                </button>
                 </span> </div>
             </div>
           </div>
@@ -133,7 +137,11 @@
           <div class="type_msg">
             <div class="input_msg_write">
               <input type="text" class="write_msg" placeholder="Type a message" />
-              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+              <button class="msg_send_btn" type="button">
+                 <svg class="send" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754   24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/>
+                 </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -157,7 +165,22 @@ export default {
 </script>
 
 <style scoped="">
-    .container{max-width:1170px; margin:auto;}
+
+.send{
+  fill:#fff;
+  position:absolute;
+  width:1rem;
+  height:1rem;
+  top:50%;
+  left:40%;
+  transform:translate(-50%,-40%)
+}
+
+.search{
+  fill:#000;
+
+}
+.container{max-width:1170px; margin:auto;}
 img{ max-width:100%;}
 .inbox_people {
   background: #f8f8f8 none repeat scroll 0 0;
