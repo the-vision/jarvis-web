@@ -9,7 +9,7 @@
           <router-link to="/about" class="link">About</router-link>
         </li>
         <li class="nav-link">
-          <router-link to="#!" class="link">Projects</router-link>
+          <router-link to="/project" class="link">Projects</router-link>
         </li>
       </ul>
       <div class="burger" id="burger" @click="toggleClass()"> 
