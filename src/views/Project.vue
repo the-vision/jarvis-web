@@ -74,7 +74,7 @@
 }
 
 .project-cards{
-    background:linear-gradient(to bottom right, rgba(0,0,0,0.5),rgba(0,0,0,0.4)),
+    background:linear-gradient(to bottom right, rgba(0,0,0,0.6),rgba(0,0,0,0.4)),
     url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -121,5 +121,4 @@
 .github:hover,.github:active{
     fill:#3eaf7c;
 }
-
 </style>
