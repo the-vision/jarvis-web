@@ -1,23 +1,25 @@
 <template>
   <nav class="nav">
-    <h1 class="nav-header">Jarvis</h1>
-    <ul v-bind:class="[isActive ? 'nav-links' : 'nav-links active']">
-      <li class="nav-link">
-        <router-link to="/" class="link">Home</router-link>
-      </li>
-      <li class="nav-link">
-        <router-link to="/about" class="link">About</router-link>
-      </li>
-      <li class="nav-link">
-        <router-link to="#!" class="link">Projects</router-link>
-      </li>
-    </ul>
-    <div class="burger" id="burger" @click="toggleClass()">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
-  </nav>
+
+      <h1 class="nav-header">Jarvis</h1>
+      <ul  v-bind:class="[isActive ? 'nav-links' : 'nav-links active']">
+        <li class="nav-link">
+          <router-link to="/" class="link">Home</router-link>
+        </li>
+        <li class="nav-link">
+          <router-link to="/about" class="link">About</router-link>
+        </li>
+        <li class="nav-link">
+          <router-link to="/project" class="link">Projects</router-link>
+        </li>
+      </ul>
+      <div class="burger" id="burger" @click="toggleClass()"> 
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav> 
+
 </template>
 
 <script>
